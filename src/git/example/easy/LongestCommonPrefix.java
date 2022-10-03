@@ -1,6 +1,6 @@
 package git.example.easy;
 
-/*
+/***
 Description:
 
 Write a function to find the longest common prefix string amongst an array of strings.
@@ -11,7 +11,7 @@ Constraints:
     1) 1 <= strs.length <= 200
     2) 0 <= strs[i].length <= 200
     3) strs[i] consists of only lowercase English letters.
- */
+ ***/
 
 public class LongestCommonPrefix {
 
