@@ -1,12 +1,14 @@
 package git.example.easy;
 
 /***
-Description:
+ * [Link]:  https://leetcode.com/problems/longest-common-prefix/
+ *
+ * [Description]:
 
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".
 
-Constraints:
+ * [Constraints]:
 
     1) 1 <= strs.length <= 200
     2) 0 <= strs[i].length <= 200
