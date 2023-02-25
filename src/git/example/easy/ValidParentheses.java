@@ -6,7 +6,7 @@ package git.example.easy;
  *
  * [Link]:      https://leetcode.com/problems/valid-parentheses/
  *
- * [Description]:
+ * [Description]:       20. Valid Parentheses
  *
  *  Given a string s containing just the characters '(', ')', '{', '}', '[' and ']'
  *  determine if the input string is valid.
@@ -33,7 +33,7 @@ public class ValidParentheses {
     }
 
     public static boolean isValid(String s) {
-        //Runtime = 100 %
+        //Runtime = 100 % (0 ms)
         //Memory = 87%
         // Code is terrible, but most effective
         char[] chars = s.toCharArray();
@@ -52,8 +52,6 @@ public class ValidParentheses {
             if (count == 0)
                 return false;
 
-            int a = counter[count];
-            int b  = chr + roundDiff;
             if (counter[count] == chr - roundDiff
                     || counter[count] == chr - squareDiff
                     || counter[count] == chr - curlyDiff) {
