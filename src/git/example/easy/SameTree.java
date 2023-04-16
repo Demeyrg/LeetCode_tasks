@@ -1,8 +1,5 @@
 package git.example.easy;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /***
  *
  * [Level]:         Easy
